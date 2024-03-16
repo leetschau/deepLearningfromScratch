@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "deeplearningfromscratch"
+version = "0.1.0"
+description = "Codes and notes about \"Deep Learning from Scratch\""
+authors = ["Leo"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.22.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
